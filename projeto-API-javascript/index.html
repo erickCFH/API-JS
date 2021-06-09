@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API com JavaSCript</title>
+
+    <link rel="icon" href="images/github.svg">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="images/github.svg" alt="gitHubLogo">
+        <form id="searchForm"> 
+            <input id="txtUser" placeholder="Insira o nome de usuário">
+        </form>
+    </header>
+    
+    <div class="container">
+        <div class="line1"></div>
+        <div class="main">
+            <div class="leftSide">
+                <div id="userImage"></div>
+                <div id="user"></div>
+            </div>
+            <div class="line2"></div>
+            <div id="rightSide" class="rightSide"></div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
